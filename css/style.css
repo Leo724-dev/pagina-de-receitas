@@ -1,2 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    background-color: #F3E5D8;
+}
+
+.conteudo img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.conteudo{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.conteudo h1{
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+}
+
+.conteudo p{
+    font-family: "Outfit", sans-serif;
+}
+
+.preparacao{
+    background-color: #fde4ef;
+    font-family: "Outfit", sans-serif;
+    padding: 10px;
+}
+
+.preparacao h3{
+    color: #ac105b;
+    margin-left: 10px;
+}
+
+.preparacao li{
+    padding: 5px;
+}
+
+span{
+    font-weight: bolder;
+}
+
+.conteudo h2{
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    color: #a3361d;
+}
+
+.conteudo li{
+    padding: 5px;
+    font-family: "Outfit", sans-serif;
+}
+
+.conteudo table{
+    width: 100%;
+    font-family: "Outfit", sans-serif;
+    border-collapse: collapse;
+}
+
+.conteudo th, td{
+    border-bottom: 1px solid gray;
+}
+
+.conteudo th{
+    font-weight: 500;
+    color: rgb(104, 104, 104);
+    text-align: left;
+    padding: 10px;
+   
+}
+
+.conteudo td{
+    font-weight: bolder;
+    color: #a3361d;
+}
